@@ -10,6 +10,7 @@ from datetime import date
 nc_path = '/home/mikael/Nextcloud/Route/'
 kml_path = '/home/mikael/mikaelhug.github.io/kml_files/'
 data_path = '/home/mikael/mikaelhug.github.io/data.json'
+varsfile = '/home/mikael/mikaelhug.github.io/vars.js'
 kml_files = listdir(nc_path)
 
 weekdays = {
@@ -158,13 +159,17 @@ def kml_to_geo():
         data['features'].append(dict_add)
 
         # update latestAdd
-        replace_in_file('vars.js','latestAdd',[coords[0][0],coords[0][1]])
+        replace_in_file(varsfile,'latestAdd',[coords[0][0],coords[0][1]])
         print("Added: "+kml)
 
     with open(data_path, 'w') as f:
         json.dump(data, f)
 
+def sync_git():
+    print("Syncing git")
 
 all_kmz_to_kml()
 print("\n")
 kml_to_geo()
+print("\n")
+sync_git()
