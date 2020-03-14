@@ -7,11 +7,23 @@ from shutil import copyfile
 from datetime import datetime
 from datetime import date
 
+def list_files(path):
+    thefiles = []
+    temp = listdir(nc_path)
+    for item in temp:
+        if '.' in item:
+            thefiles.append(item)
+        else:
+            subdir = listdir(os.path.join(path,item))
+            subdir = [item + '/' + s for s in subdir]
+            thefiles.extend(subdir)
+    return thefiles
+
 nc_path = '/home/mikael/Nextcloud/Route/'
 kml_path = '/home/mikael/mikaelhug.github.io/kml_files/'
 data_path = '/home/mikael/mikaelhug.github.io/data.json'
 varsfile = '/home/mikael/mikaelhug.github.io/vars.js'
-kml_files = listdir(nc_path)
+kml_files = list_files(nc_path)
 
 weekdays = {
     0: 'Monday',
@@ -60,7 +72,12 @@ def get_weekday(datestamp):
 def all_kmz_to_kml():
     kml_files_git = listdir(kml_path)
     for kml in kml_files:
-        kmlname = kml.split('.')[0]+'.kml'
+        kmlname = kml.split('.')[0].replace('/','-')+'.kml'
+        
+        if '/' in kml:
+            kmlns = kml.split('/')[1]
+        else:
+            kmlns = kml   
 
         # pass if already copied
         if kmlname in kml_files_git:
@@ -68,19 +85,19 @@ def all_kmz_to_kml():
             continue
 
         # copy .kmz from nextcloud to git
-        copyfile(nc_path+kml, kml_path+kml)
+        copyfile(nc_path+kml, kml_path+kmlns)
 
         # extract kmz to 'temp'
         os.mkdir(kml_path+'temp')
-        zip = ZipFile(kml_path+kml)
+        zip = ZipFile(kml_path+kmlns)
         zip.extractall(kml_path+'temp')
-
+        
         # move kml to ../
         shutil.move(kml_path+'temp/doc.kml', kml_path+kmlname)
 
         # delete 'temp' + kmz in git
         shutil.rmtree(kml_path+'temp')
-        os.remove(kml_path+kml)
+        os.remove(kml_path+kmlns)
 
         print("Copied: "+kmlname)
 
