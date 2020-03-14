@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="scripts/leaflet/leaflet.css" />
     <script src="scripts/leaflet/leaflet.js"></script>
     <script src="scripts/js/leaflet.ajax.min.js"></script>
-    <!-- <script src="data.js"></script> -->
+    <script src="vars.js"></script>
 
     <style>
         body {
@@ -37,9 +37,8 @@
 
     <script>
 
-        // LatLong order
         var sierraNevada = [37.0535, -3.2110];
-        var map = L.map('map').setView(sierraNevada, 11);
+        var map = L.map('map').setView(latestAdd, 11);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
             maxZoom: 18,
@@ -49,20 +48,24 @@
         }).addTo(map);
 
         var colors = {
-            "monday": "#ff0000",
-            "tuesday": "#0000ff",
-            "wednesday": "#0000ff",
-            "thursday": "#0000ff",
-            "friday": "#0000ff",
-            "saturday": "#0000ff",
-            "sunday": "#0000ff"
+            "Monday": "#FFFAF0",
+            "Tuesday": "#CD5C5C",
+            "Wednesday": "#32CD32",
+            "Thursday": "#FFFFE0",
+            "Friday": "#F0F8FF",
+            "Saturday": "#663399",
+            "Sunday": "#800000"
         };
 
         function onEachFeature(feature, layer) {
             // Popup info
             var popupContent = "<p>Name: " + feature.properties.name
                 + "<br>Day: " + feature.properties.day
-                + "<br>Desc.: " + feature.properties.description
+                + "<br>Desc: " + feature.properties.description
+                + "<br>Distance: " + feature.properties.distanceTotal
+                + "<br>Duration: " + feature.properties.timeMoving
+                + "<br>Started: " + feature.properties.createdDate
+                + "<br>Ended: " + feature.properties.endDate
                 + "</p>";
 
             // add popup to line
