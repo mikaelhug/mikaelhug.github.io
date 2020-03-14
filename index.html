@@ -3,15 +3,17 @@
 
 <head>
 
-    <title>Quick Start - Leaflet</title>
+    <title>Rosel Hiking</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
     <link rel="stylesheet" href="scripts/leaflet/leaflet.css" />
     <script src="scripts/leaflet/leaflet.js"></script>
+    <!-- <script src="scripts/jquery.min.js"></script> -->
+    <script src="data.js"></script>
 
     <style>
         body {
@@ -32,15 +34,62 @@
 <body>
 
     <div id="map"></div>
+
     <script>
 
-        var map = L.map('map').setView([37.0535, -3.2110], 11);
+        // LatLong order
+        var sierraNevada = [37.0535, -3.2110];
+        var map = L.map('map').setView(sierraNevada, 11);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
             maxZoom: 18,
             id: 'mapbox/outdoors-v11',
             tileSize: 512,
             zoomOffset: -1
+        }).addTo(map);
+
+        var colors = {
+            "monday": "#ff0000",
+            "tuesday": "#0000ff",
+            "wednesday": "#0000ff",
+            "thursday": "#0000ff",
+            "friday": "#0000ff",
+            "saturday": "#0000ff",
+            "sunday": "#0000ff"
+        };
+
+
+        function onEachFeature(feature, layer) {
+            // Popup info
+            var popupContent = "<p>Name: " + feature.properties.name
+                + "<br>Day: " + feature.properties.day
+                + "<br>Notes: " + feature.properties.notes
+                + "</p>";
+
+            // add popup to line
+            layer.bindPopup(popupContent);
+
+            // add start and stop signs with the same popup
+            numPts = feature.geometry.coordinates.length;
+            var start = feature.geometry.coordinates[0]
+            var end = feature.geometry.coordinates[numPts - 1];
+            var markerStyle = {
+                opacity: 0.4,
+                color: colors[feature.properties.day],
+            };
+            L.circleMarker([start[1], start[0]], markerStyle).addTo(map).bindPopup(popupContent);
+            L.circleMarker([end[1], end[0]], markerStyle).addTo(map).bindPopup(popupContent);
+
+        }
+
+        L.geoJSON(routes, {
+            style: function (feature) {
+                return {
+                    color: colors[feature.properties.day],
+                    opacity: 0.4
+                };
+            },
+            onEachFeature: onEachFeature
         }).addTo(map);
 
     </script>

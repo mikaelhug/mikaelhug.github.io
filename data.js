@@ -1,0 +1,55 @@
+var routes = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Day one",
+                "day": "monday",
+                "notes": "This hike was tough!"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.2110,
+                        37.0535
+                    ],
+                    [
+                        -3.3110,
+                        37.0435
+                    ],
+                    [
+                        -3.4110,
+                        37.0035
+                    ],
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Day two",
+                "day": "tuesday",
+                "notes": "This hike was easier!"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.2110,
+                        37.0535
+                    ],
+                    [
+                        -3.2510,
+                        37.0235
+                    ],
+                    [
+                        -3.2650,
+                        37.0035
+                    ],
+                ]
+            }
+        }
+    ]
+};
