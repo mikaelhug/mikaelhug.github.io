@@ -12,8 +12,8 @@
 
     <link rel="stylesheet" href="scripts/leaflet/leaflet.css" />
     <script src="scripts/leaflet/leaflet.js"></script>
-    <!-- <script src="scripts/jquery.min.js"></script> -->
-    <script src="data.js"></script>
+    <script src="scripts/js/leaflet.ajax.min.js"></script>
+    <!-- <script src="data.js"></script> -->
 
     <style>
         body {
@@ -58,7 +58,6 @@
             "sunday": "#0000ff"
         };
 
-
         function onEachFeature(feature, layer) {
             // Popup info
             var popupContent = "<p>Name: " + feature.properties.name
@@ -71,7 +70,7 @@
 
             // add start and stop signs with the same popup
             numPts = feature.geometry.coordinates.length;
-            var start = feature.geometry.coordinates[0]
+            var start = feature.geometry.coordinates[0];
             var end = feature.geometry.coordinates[numPts - 1];
             var markerStyle = {
                 opacity: 0.4,
@@ -79,10 +78,9 @@
             };
             L.circleMarker([start[1], start[0]], markerStyle).addTo(map).bindPopup(popupContent);
             L.circleMarker([end[1], end[0]], markerStyle).addTo(map).bindPopup(popupContent);
-
         }
 
-        L.geoJSON(routes, {
+        new L.GeoJSON.AJAX("data.json", {
             style: function (feature) {
                 return {
                     color: colors[feature.properties.day],
