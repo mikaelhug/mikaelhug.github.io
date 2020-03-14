@@ -10,7 +10,6 @@ kml_path = '/home/mikael/mikaelhug.github.io/kml_files/'
 data_path = '/home/mikael/mikaelhug.github.io/data.json'
 kml_files = listdir(nc_path)
 
-# data = json.loads(data_path)
 with open(data_path, 'r') as f:
     data = json.load(f)
 
