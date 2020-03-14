@@ -1,0 +1,6 @@
+sudo docker run -d \
+-p 89:80 --name leaflettest \
+-e TZ="Europe/Stockholm" \
+-v /home/mikael/mikaelhug.github.io:/usr/local/apache2/htdocs \
+--restart=always \
+httpd:latest
