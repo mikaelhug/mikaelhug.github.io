@@ -166,7 +166,8 @@ def kml_to_geo():
         json.dump(data, f)
 
 def sync_git():
-    print("Syncing git")
+    gitcmd = 'cd /home/mikael/mikaelhug.github.io && git add . && git commit -a -m "Auto Push" &&  git push'
+    os.system(gitcmd)
 
 all_kmz_to_kml()
 print("\n")
