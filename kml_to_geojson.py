@@ -55,7 +55,7 @@ def replace_in_file(vfile, var, val):
 
 def s_turn(kmldata, splitter):
     try:
-        return kmldata.split(splitter)[1].split('</value>')[0].split('<value>')[1]
+        return round(float(kmldata.split(splitter)[1].split('</value>')[0].split('<value>')[1]),2)
     except:
         return 0
 
