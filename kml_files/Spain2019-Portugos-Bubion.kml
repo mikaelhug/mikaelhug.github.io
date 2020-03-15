@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Portugos-Bubion</name>
+		<description>A user Tour</description>
+		<Style id="yelID">
+			<LineStyle>
+				<color>b200ffff</color>
+				<width>4.000000</width>
+			</LineStyle>
+		</Style>
+		<Style id="stopID">
+			<IconStyle>
+				<scale>1.000000</scale>
+				<Icon>
+					<href>files/RouteYellow.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>Portugos-Bubion</name>
+			<Snippet maxLines="2">A user Tour</Snippet>
+			<description><![CDATA[
+	<table style="width: 120; margin: 6px 0" border="0">                                  
+		                                  <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                                  
+		                                  <tr>
+			<td style="font-weight: bold; width: 60px;">Total distance:</td>
+	<td ALIGN=right>7.7 km</td>
+		</tr>                                  
+		                                  <tr>
+			<td style="font-weight: bold; width: 60px;">Total time:</td>
+	<td ALIGN=right>2:08:04</td>
+		</tr>                                  
+		                                  <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                                  
+		                                  <tr>
+			                                  <tr>
+			<td style="font-weight: bold; width: 60px;">Your speed:</td>
+	<td ALIGN=right>3.6 km/h</td>
+		</tr>                                  
+		                                  <tr>
+			<td style="font-weight: bold; width: 60px;">:</td>
+	<td ALIGN=right>5.3 G/h</td>
+		</tr>                                  
+	</table>]]></description>
+			<styleUrl>#yelID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>ROUTE</value>
+				</Data>
+				<Data name="createdDate">
+					<value>1549717361.703787</value>
+				</Data>
+				<Data name="endDate">
+					<value>1549717801.275803</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-3.312238,36.942516,0.000000 -3.312603,36.942226,0.000000 -3.313183,36.941681,0.000000 -3.313724,36.941559,0.000000 -3.314690,36.941387,0.000000 -3.315795,36.940952,0.000000 -3.317614,36.940971,0.000000 -3.318606,36.941059,0.000000 -3.319336,36.940891,0.000000 -3.319598,36.940624,0.000000 -3.319910,36.940891,0.000000 -3.320312,36.941326,0.000000 -3.320773,36.941292,0.000000 -3.320741,36.940971,0.000000 -3.320956,36.940815,0.000000 -3.321637,36.940907,0.000000 -3.323032,36.941078,0.000000 -3.323836,36.942329,0.000000 -3.325274,36.942413,0.000000 -3.326325,36.942646,0.000000 -3.323815,36.944138,0.000000 -3.323321,36.944035,0.000000 -3.322530,36.944324,0.000000 -3.322849,36.944473,0.000000 -3.322560,36.944714,0.000000 -3.323635,36.945457,0.000000 -3.324016,36.945763,0.000000 -3.324282,36.945759,0.000000 -3.324440,36.946823,0.000000 -3.324628,36.946758,0.000000 -3.324421,36.947346,0.000000 -3.324786,36.949680,0.000000 -3.327581,36.950558,0.000000 -3.328643,36.951920,0.000000 -3.329297,36.951794,0.000000 -3.329684,36.953159,0.000000 -3.329905,36.953545,0.000000 -3.330939,36.952908,0.000000 -3.332672,36.952293,0.000000 -3.333911,36.952103,0.000000 -3.335461,36.951645,0.000000 -3.337398,36.951241,0.000000 -3.337950,36.950699,0.000000 -3.339511,36.949863,0.000000 -3.339876,36.949551,0.000000 -3.340638,36.948360,0.000000 -3.340868,36.947807,0.000000 -3.341571,36.947449,0.000000 -3.342086,36.946766,0.000000 -3.342730,36.946922,0.000000 -3.343336,36.948372,0.000000 -3.343213,36.949333,0.000000 -3.342140,36.950882,0.000000 -3.342783,36.950912,0.000000 -3.342848,36.951950,0.000000 -3.343642,36.952690,0.000000 -3.344098,36.954269,0.000000 -3.345369,36.954445,0.000000 -3.346184,36.955704,0.000000 -3.346439,36.956043,0.000000 -3.346691,36.955509,0.000000 -3.347134,36.954933,0.000000 -3.347271,36.954422,0.000000 -3.348132,36.954933,0.000000 -3.349095,36.954700,0.000000 -3.350406,36.954994,0.000000 -3.351297,36.954876,0.000000 -3.351667,36.954258,0.000000 -3.352388,36.954418,0.000000 -3.352515,36.955029,0.000000 -3.352608,36.954472,0.000000 -3.352619,36.954109,0.000000 -3.351887,36.953739,0.000000 -3.351804,36.953121,0.000000 -3.351938,36.952541,0.000000 -3.352391,36.952362,0.000000 -3.352445,36.951874,0.000000 -3.352702,36.951908,0.000000 -3.352574,36.951363,0.000000 -3.352914,36.951012,0.000000 -3.352724,36.950596,0.000000 -3.353072,36.950096,0.000000 -3.353893,36.949902,0.000000 -3.354872,36.949333,0.000000 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>M_2019-02-09#3</name>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.312238,36.942516,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>46 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>225°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:45</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.312603,36.942226,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>79 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>220°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:19</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.313183,36.941681,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>50 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>254°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:50</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.313724,36.941559,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>88 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>257°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:27</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.314690,36.941387,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>109 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>244°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:49</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.315795,36.940952,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>162 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>271°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:41</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.317614,36.940971,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>89 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>276°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:28</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.318606,36.941059,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>67 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>254°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:07</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.319336,36.940891,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>38 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>218°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:38</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.319598,36.940624,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>41 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>317°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:40</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.319910,36.940891,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>60 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>323°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:59</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.320312,36.941326,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>41 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>265°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:41</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.320773,36.941292,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>36 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>175°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:35</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.320741,36.940971,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>26 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>228°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:25</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.320956,36.940815,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>61 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>279°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:01</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.321637,36.940907,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>125 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>279°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:05</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.323032,36.941078,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>157 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>333°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:36</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.323836,36.942329,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>128 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>274°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:08</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.325274,36.942413,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>97 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>285°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:36</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.326325,36.942646,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>278 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>53°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>4:38</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.323815,36.944138,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>45 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>105°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:45</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.323321,36.944035,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>77 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>65°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:17</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.322530,36.944324,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>33 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>301°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:33</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.322849,36.944473,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>25</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>37 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>44°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:37</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.322560,36.944714,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>26</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>126 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>311°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:06</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.323635,36.945457,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>27</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>48 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>315°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:47</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.324016,36.945763,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>24 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>269°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:23</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.324282,36.945759,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>29</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>119 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>353°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:59</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.324440,36.946823,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>30</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>18 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>246°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:18</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.324628,36.946758,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>31</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>68 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>16°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:08</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.324421,36.947346,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>32</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>262 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>353°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>4:21</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.324786,36.949680,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>33</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>267 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>291°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>4:26</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.327581,36.950558,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>34</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>179 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>328°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:58</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.328643,36.951920,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>35</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>60 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>257°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:59</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.329297,36.951794,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>36</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>155 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>347°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:35</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.329684,36.953159,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>37</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>47 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>335°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:47</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.329905,36.953545,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>38</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>116 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>232°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:56</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.330939,36.952908,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>39</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>168 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>246°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:48</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.332672,36.952293,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>40</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>112 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>259°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:52</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.333911,36.952103,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>41</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>147 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>250°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:26</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.335461,36.951645,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>42</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>178 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>255°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:57</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.337398,36.951241,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>43</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>78 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>219°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:17</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.337950,36.950699,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>44</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>167 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>236°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:46</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.339511,36.949863,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>45</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>48 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>223°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:47</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.339876,36.949551,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>46</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>148 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>207°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:28</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.340638,36.948360,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>47</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>65 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>198°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:04</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.340868,36.947807,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>48</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>74 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>237°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:14</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.341571,36.947449,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>49</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>89 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>211°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:28</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.342086,36.946766,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>50</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>60 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>287°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:59</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.342730,36.946922,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>170 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>342°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:49</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.343336,36.948372,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>108 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>6°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:47</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.343213,36.949333,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>197 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>29°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>3:16</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.342140,36.950882,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>54</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>57 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>273°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:57</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.342783,36.950912,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>55</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>116 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>357°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:55</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.342848,36.951950,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>56</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>109 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>319°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:48</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.343642,36.952690,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>57</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>180 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>347°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>3:00</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.344098,36.954269,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>58</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>115 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>280°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:54</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.345369,36.954445,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>59</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>158 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>333°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:37</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.346184,36.955704,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>60</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>44 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>329°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:43</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.346439,36.956043,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>61</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>64 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>201°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:03</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.346691,36.955509,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>62</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>75 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>212°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:14</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.347134,36.954933,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>63</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>58 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>192°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:58</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.347271,36.954422,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>64</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>95 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>307°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:35</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.348132,36.954933,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>65</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>89 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>253°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:29</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.349095,36.954700,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>66</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>121 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>286°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>2:00</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.350406,36.954994,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>67</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>80 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>261°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:20</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.351297,36.954876,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>68</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>76 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>206°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:16</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.351667,36.954258,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>69</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>66 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>285°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:06</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352388,36.954418,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>70</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>69 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>351°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:08</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352515,36.955029,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>71</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>62 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>188°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:02</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352608,36.954472,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>72</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>41 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>181°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:40</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352619,36.954109,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>73</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>77 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>122°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:16</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.351887,36.953739,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>74</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>70 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>174°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:09</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.351804,36.953121,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>75</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>65 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>191°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:05</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.351938,36.952541,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>76</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>45 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>243°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:45</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352391,36.952362,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>77</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>55 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>185°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:54</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352445,36.951874,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>78</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>23 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>280°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:23</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352702,36.951908,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>79</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>62 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>169°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:01</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352574,36.951363,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>80</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>49 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>218°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:49</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352914,36.951012,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>81</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>49 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>160°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>0:49</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.352724,36.950596,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>82</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>64 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>209°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:03</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.353072,36.950096,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>83</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>76 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>253°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:16</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.353893,36.949902,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>84</name>
+			<description><![CDATA[<table style="width: 200; margin: 6px 0" border="0">                     <tr>
+			<td COLSPAN="2"><hr></td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Partial distance:</td>
+	<td ALIGN=right>108 m</td>
+		</tr>                     
+		                     <tr>
+			<td style="font-weight: bold; width: 60px;">Bearing:</td>
+	<td ALIGN=right>234°</td>
+		</tr>                     
+		                     <tr>
+			<td COLSPAN="1"><hr></td>
+		</tr>                     
+		                     <tr>
+			                     <tr>
+			<td style="font-weight: bold; width: 60px;">Estimated time:</td>
+	<td ALIGN=right>1:47</td>
+		</tr>                     
+	</table>]]></description>
+			<styleUrl>#stopID</styleUrl>
+			<ExtendedData>
+				<Data name="typeOfObject">
+					<value>FAKE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.354872,36.949333,0.000000</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
