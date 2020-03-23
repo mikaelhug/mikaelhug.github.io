@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.rawgit.com/csaladenes/ddc0b326b93ec641c84f/raw/nv.d3.css" rel="stylesheet"/>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdn.rawgit.com/csaladenes/ddc0b326b93ec641c84f/raw/nv.d3.min.js"></script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+<style>
+table {
+  border-collapse:collapse;
+}
+td {
+  border:solid 1px;
+  
+}
+#chart svg {
+  width:100%;
+  height:300px;
+}
+</style>
+</head>
+<body>
+  <select id="countrySelector"></select>
+  <div id="chart"><svg></svg></div>
+  <div id="datatable"></div>
+<script>
+//load ISO country codes
+var countries;
+d3.csv("https://cdn.rawgit.com/datasets/country-codes/master/data/country-codes.csv", function(countries) {
+  var ISO3 = {};
+  countries.forEach(function(d) {
+    ISO3[d.name] = d["ISO3166-1-Alpha-3"];
+  });
+  generateCountryList(ISO3);
+});
+
+//create dropdown of countries
+var countrySel = d3.select("#countrySelector")
+  .on("change",load);
+
+function generateCountryList(countries) {
+  for (var country in countries) {
+    var option=countrySel.append("option");
+      option.text(country)
+      .attr("value", countries[country]);
+    
+    //set starting country
+    if (country=="China") option.attr("selected",true);
+
+  }
+  load();
+}
+
+//defines data sources, use Quandl, break strings into 2 at country code
+//Quandl uses ISO3 country codes, need to create our own country aggregations later and upload it to Quandl
+country = "USA";
+sources = [
+  ["https://www.quandl.com/api/v1/datasets/UNDATA/GID_CO2_", ".json"],
+  ["https://www.quandl.com/api/v1/datasets/UN/DEV_CO2EMISSIONSMETRICTONSPERCAPITA_", ".json"],
+  ["https://www.quandl.com/api/v1/datasets/WORLDBANK/", "_EN_ATM_CO2E_KT.json"]
+];
+
+//Quandl auth token
+token = ""; //insert your auth token, free queries limited to 50/hour or so
+
+//chose which data source to take
+dataID = 2;
+
+function load() {
+  
+  //construct url
+  var url = sources[dataID][0] + countrySel.node().value + sources[dataID][1] + "?auth_token=" + token;
+  
+  //load
+  d3.json(url, function(d) {
+    
+    console.log(url);
+
+    // render the table
+    tabulate(d.data, d.column_names);
+
+    // render the chart with nvd3
+    nv.addGraph(function() {
+      var chart = nv.models.lineChart()
+        .margin({
+          left: 100
+        })
+        .useInteractiveGuideline(false)
+        .transitionDuration(350)
+        .showLegend(true)
+        .showYAxis(true)
+        .showXAxis(true);
+
+      chart.xAxis
+        .axisLabel("Year")
+        .tickFormat(d3.format(',r'));
+
+      chart.yAxis
+        .axisLabel(d.name + " x 1M")
+        .tickFormat(d3.format('.02f'));
+
+
+      var chartData = [{
+        values: [], //values - represents the array of {x,y} data points
+        key: d.code, //key  - the name of the series.
+        color: '#ff7f0e' //color - optional: choose your own line color.
+      }];
+
+      var roots = d.data.map(function(e) {
+        return {
+          x: e[0].slice(0, 4),
+          y: e[1] / 1000000
+        };
+      });
+
+      //push it to chartData;
+      //change index or wrap in loop if more datasets graphed on the same chart, e.g. emissions from fossil, gas, etc.
+      chartData[0].values = roots;
+
+      d3.select('#chart svg') //select the <svg> element you want to render the chart in.   
+        .datum(chartData) //populate the <svg> element with chart data...
+        .call(chart); //render the chart
+
+      //Update the chart when window resizes.
+      nv.utils.windowResize(function() {
+        chart.update();
+      });
+      return chart;
+    });
+  });
+}
+
+nv.dev = false; //surpres nvd3 console logs
+
+
+//create table from d3 data [[,][,],..]
+function tabulate(data, columns) {
+
+    //remove existing table (if), create new one
+    d3.select("#datatable").selectAll("table").remove();
+    var table = d3.select("#datatable").append("table"),
+        thead = table.append("thead"),
+        tbody = table.append("tbody");
+
+  //append the header row
+  thead.append("tr")
+    .selectAll("th")
+    .data(columns)
+    .enter()
+    .append("th")
+    .text(function(column) {
+      return column;
+    });
+
+  // create a row for each object in the data
+  var rows = tbody.selectAll("tr")
+    .data(data)
+    .enter()
+    .append("tr");
+
+  // create a cell in each row for each column
+  var cells = rows.selectAll("td")
+    .data(function(row) {
+      return columns.map(function(column) {
+        return {
+          column: column,
+          value: row
+        };
+      });
+    })
+    .enter()
+    .append("td")
+    .text(function(d, i) {
+      return d.value[i];
+    });
+  
+  firstgo=false;
+  return table;
+}
+</script>
+</body>
+</html>
